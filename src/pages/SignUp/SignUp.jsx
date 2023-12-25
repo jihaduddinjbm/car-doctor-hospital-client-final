@@ -51,7 +51,7 @@ const SignUp = () => {
                 <input type="password" name='password' placeholder="password" className="input input-bordered" required />
               </div>
               <div className="form-control mt-6">
-                <input className="btn btn-primary" type="submit" value="Login" />
+                <input className="btn btn-primary" type="submit" value="sign up" />
               </div>
               </form>
               <p className='text-center'>Already have a an Account <Link to='/login' className='text-xl text-orange-500 font-bold'>Login</Link></p>
